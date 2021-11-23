@@ -10,7 +10,7 @@ build: off
 build_script:
   - npm run build #командасборки
 test_script:
-  - npm run lint && npm test #скрипттестирования
+  - npm run lint #скрипттестирования
 deploy_script: #скриптразвёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
